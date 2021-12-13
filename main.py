@@ -15,9 +15,9 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "Flask app is running and I am changing something."
+    return "Circleci-docker-heroku app is running"
 
-port = int(os.getenv("PORT", 5001))
+port = int(os.getenv("PORT", 5002))
 
 if __name__ == "__main__":
     host = '0.0.0.0'
