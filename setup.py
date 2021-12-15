@@ -4,7 +4,7 @@ setup(
     name="wafer-fault-detection",
     version="0.0.3",
     description="ML project",
-    author="Rabin",
+    author="Avnish yadav", 
     packages=find_packages(),
     license="MIT"
 )
